@@ -11,9 +11,12 @@ using namespace std;
 int main() {
 	//freopen("input.txt", "r", stdin);
 
-	int M, N;
+	int a, b;
 
-	cin >> N >> M;
+	cin >> a >> b;
 
-	cout << N * (M + 1);
+	if (!(a % 2) || b % 2)
+		cout << "yes";
+	else
+		cout << "no";
 }

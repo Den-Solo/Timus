@@ -11,9 +11,9 @@ using namespace std;
 int main() {
 	//freopen("input.txt", "r", stdin);
 
-	int M, N;
+	int a, b;
 
-	cin >> N >> M;
+	cin >> a >> b;
+	cout << b - 1 << ' ' <<  a - 1;
 
-	cout << N * (M + 1);
 }

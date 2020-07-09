@@ -12,7 +12,6 @@ int main() {
 	//freopen("input.txt", "r", stdin);
 
 	int a;
-	char str[10];
 
 	cin >> a;
 

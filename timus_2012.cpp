@@ -11,9 +11,13 @@ using namespace std;
 int main() {
 	//freopen("input.txt", "r", stdin);
 
-	int M, N;
+	int a;
 
-	cin >> N >> M;
+	cin >> a;
+	a = 12 - a;
 
-	cout << N * (M + 1);
+	if (4 * 60 > 45 * a)
+		cout << "YES";
+	else
+		cout << "NO";
 }
